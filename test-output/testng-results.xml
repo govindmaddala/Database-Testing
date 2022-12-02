@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-02T18:19:05 IST" name="Default suite" finished-at="2022-12-02T18:19:06 IST" duration-ms="1030">
+    <groups>
+    </groups>
+    <test started-at="2022-12-02T18:19:05 IST" name="Default test" finished-at="2022-12-02T18:19:06 IST" duration-ms="1030">
+      <class name="dbTesting.StoredProcedure">
+        <test-method is-config="true" signature="createConnection()[pri:0, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:05 IST" name="createConnection" finished-at="2022-12-02T18:19:06 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConnection -->
+        <test-method signature="test_storedProceduredExists()[pri:1, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:06 IST" name="test_storedProceduredExists" finished-at="2022-12-02T18:19:06 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_storedProceduredExists -->
+        <test-method signature="selectAllCustomers()[pri:2, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:06 IST" name="selectAllCustomers" finished-at="2022-12-02T18:19:06 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllCustomers -->
+        <test-method signature="selectAllCustomersByCity()[pri:3, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:06 IST" name="selectAllCustomersByCity" finished-at="2022-12-02T18:19:06 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllCustomersByCity -->
+        <test-method signature="selectAllCustomersByCityAndPin()[pri:4, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:06 IST" name="selectAllCustomersByCityAndPin" finished-at="2022-12-02T18:19:06 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAllCustomersByCityAndPin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dbTesting.StoredProcedure@47faa49c]" started-at="2022-12-02T18:19:06 IST" name="tearDown" finished-at="2022-12-02T18:19:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dbTesting.StoredProcedure -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
